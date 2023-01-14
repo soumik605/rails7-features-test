@@ -30,5 +30,6 @@ group :test do
 end
 
 gem "sidekiq"
+gem "sidekiq-cron"
 gem 'haml'
 gem 'haml-rails'

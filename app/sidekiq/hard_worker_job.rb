@@ -1,10 +1,8 @@
 class HardWorkerJob
   include Sidekiq::Job
 
-  def perform(title, id)
-    puts("________starrting background job___________")
-    sleep(15)
-    puts(id, title)
-    puts("________background job finished___________")
+  def perform()
+    puts("________starrting cron job___________")
+    puts("________cron job finished___________")
   end
 end
