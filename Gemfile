@@ -30,3 +30,5 @@ group :test do
 end
 
 gem "sidekiq"
+gem 'haml'
+gem 'haml-rails'
